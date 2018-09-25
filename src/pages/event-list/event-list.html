@@ -1,0 +1,35 @@
+<!--
+  Generated template for the EventListPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>eventList</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <h1 id='card-dis-title'>What is it</h1>
+  <ion-card>
+    <ion-card-header>
+      {{ legName }}
+    </ion-card-header>
+    <ion-card-content>
+        {{ legDescription }}
+    </ion-card-content>
+  </ion-card>
+  <h1>What is happening</h1>
+  <ion-card *ngFor="let event of events">
+    <ion-card-header>
+      {{ event.name }}
+    </ion-card-header>
+    <ion-card-content>
+      {{ event.description }}
+    </ion-card-content>
+  </ion-card>
+</ion-content>
