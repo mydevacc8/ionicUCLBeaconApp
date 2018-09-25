@@ -45,6 +45,7 @@ export class MapPage {
     delegate.didRangeBeaconsInRegion()
       .subscribe(
       data => {
+        console.log(data);
         this.visibleBeacon = data.beacons;
         console.log(this.visibleBeacon);
       },

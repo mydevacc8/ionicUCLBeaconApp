@@ -30,10 +30,17 @@
     "@ionic-native/status-bar": "4.7.0",
     "@ionic-native/toast": "^4.12.0",
     "@ionic/storage": "2.1.3",
+    "com.unarin.cordova.beacon": "^3.7.0",
+    "cordova-android": "7.0.0",
     "cordova-ios": "4.5.4",
     "cordova-plugin-console": "^1.1.0",
+    "cordova-plugin-device": "^2.0.2",
     "cordova-plugin-ibeacon": "^3.7.0",
+    "cordova-plugin-ionic-keyboard": "^2.0.5",
+    "cordova-plugin-ionic-webview": "^1.1.19",
+    "cordova-plugin-splashscreen": "^5.0.2",
     "cordova-plugin-statusbar": "^2.4.2",
+    "cordova-plugin-whitelist": "^1.3.3",
     "cordova-plugin-x-toast": "^2.7.0",
     "cordova-sqlite-storage": "^2.4.0",
     "ionic-angular": "3.9.2",
@@ -55,7 +62,15 @@
       "uk.co.workingedge.cordova.plugin.sqliteporter": {},
       "cordova-plugin-console": {},
       "cordova-plugin-statusbar": {},
-      "com.unarin.cordova.beacon": {}
-    }
+      "com.unarin.cordova.beacon": {},
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-ionic-webview": {},
+      "cordova-plugin-ionic-keyboard": {}
+    },
+    "platforms": [
+      "android"
+    ]
   }
 }

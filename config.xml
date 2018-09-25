@@ -86,4 +86,6 @@
     <plugin name="cordova-plugin-console" spec="^1.1.0" />
     <plugin name="cordova-plugin-statusbar" spec="^2.4.2" />
     <plugin name="com.unarin.cordova.beacon" spec="~3.7.0" />
+    <engine name="android" spec="~7.0.0" />
+    <allow-navigation href="http://192.168.56.1:8100" />
 </widget>
